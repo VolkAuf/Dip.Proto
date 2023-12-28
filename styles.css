@@ -1,0 +1,90 @@
+/* Файл стилей */
+
+body {
+    margin: 0;
+    padding-bottom: 60px;
+    /* Добавим отступ внизу body для устранения перекрытия подвала */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-container {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.movie-poster {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.movie-info {
+    text-align: left;
+}
+
+.movie-description {
+    margin-top: 10px;
+}
+
+.reviews-container {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
